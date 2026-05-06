@@ -286,6 +286,64 @@ textarea {
   margin: 0 0 0.6rem;
 }
 
+.section-intro {
+  max-width: 760px;
+  margin: 0.75rem 0 2rem;
+  color: #4b5563;
+}
+
+.why-choose {
+  padding: 4rem 0;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 1.5rem;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  box-shadow: 0 16px 30px rgba(15, 23, 42, 0.06);
+}
+
+.feature-card h3 {
+  margin-top: 0;
+}
+
+.blog {
+  padding: 4rem 0 2rem;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.blog-card {
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 1.6rem;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  box-shadow: 0 18px 35px rgba(15, 23, 42, 0.05);
+}
+
+.blog-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.blog-card p {
+  margin: 0;
+  color: #475569;
+}
+
 .service {
   padding: 4rem 0;
 }
@@ -472,6 +530,8 @@ textarea {
   .about-grid,
   .service-grid,
   .contact-grid,
+  .feature-grid,
+  .blog-grid,
   .footer-grid {
     grid-template-columns: 1fr;
   }

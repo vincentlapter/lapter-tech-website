@@ -1,52 +1,52 @@
 const services = {
-  damage: {
-    title: 'Storm Damage Assessment',
-    text: 'We evaluate roof damage from storms, wind, and hail, then deliver a repair plan that restores strength and safety.',
-    image: 'https://images.pexels.com/photos/2697463/pexels-photo-2697463.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  web: {
+    title: 'Web Development',
+    text: 'We build modern, responsive websites and web applications that help businesses convert visitors into customers and grow their digital footprint.',
+    image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1200',
     bullets: [
-      'Emergency damage inspection',
-      'Detailed repair recommendations',
-      'Insurance documentation support',
+      'Custom website development',
+      'E-commerce and CMS solutions',
+      'Performance and security optimization',
     ],
   },
-  asphalt: {
-    title: 'Asphalt Shingle Roofing',
-    text: 'Asphalt shingles remain a popular choice for their affordability and reliability. We offer expert installation and repair backed by quality materials.',
-    image: 'https://images.pexels.com/photos/5668487/pexels-photo-5668487.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  app: {
+    title: 'App Development',
+    text: 'Our team creates powerful mobile apps for iOS and Android, designed to engage users and deliver a seamless digital experience.',
+    image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200',
     bullets: [
-      'Gutter installation and maintenance',
-      'Skylight installation and repair',
-      'Chimney flashing and repair',
+      'Native and cross-platform apps',
+      'User-centered mobile design',
+      'App store deployment support',
     ],
   },
-  metal: {
-    title: 'Metal Roofing Services',
-    text: 'Metal roofing delivers long-term durability and protection. Our team installs and repairs metal roof systems with precision.',
-    image: 'https://images.pexels.com/photos/6153783/pexels-photo-6153783.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  hosting: {
+    title: 'Hosting & Infrastructure',
+    text: 'Reliable hosting keeps your website and applications online, fast and secure. We manage infrastructure so you can focus on your business.',
+    image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200',
     bullets: [
-      'Custom metal roof installation',
-      'Rust prevention and coating',
-      'Leak repair and maintenance',
+      'Managed cloud hosting',
+      'Monitoring and uptime support',
+      'Backup and security management',
     ],
   },
-  green: {
-    title: 'Green Roof Installation',
-    text: 'Green roofing solutions improve insulation and aesthetics while contributing to a more sustainable home environment.',
-    image: 'https://images.pexels.com/photos/10960910/pexels-photo-10960910.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  maintenance: {
+    title: 'Website Maintenance',
+    text: 'Keep your digital presence up to date with continual maintenance, updates, and performance improvements.',
+    image: 'https://images.pexels.com/photos/3184390/pexels-photo-3184390.jpeg?auto=compress&cs=tinysrgb&w=1200',
     bullets: [
-      'Eco-friendly plant roof systems',
-      'Drainage and waterproofing solutions',
-      'Long-term maintenance plans',
+      'Routine updates and patches',
+      'Content and performance tuning',
+      'Security monitoring and fixes',
     ],
   },
-  ventilation: {
-    title: 'Roof Ventilation Services',
-    text: 'Proper ventilation extends roof life and prevents moisture buildup. We design balanced ventilation systems for every roof type.',
-    image: 'https://images.pexels.com/photos/5875044/pexels-photo-5875044.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  design: {
+    title: 'UI/UX Design',
+    text: 'We create intuitive digital experiences with thoughtful user interface and experience design that improves conversion and engagement.',
+    image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200',
     bullets: [
-      'Attic ventilation assessment',
-      'Soffit and ridge vent installation',
-      'Heat and moisture control',
+      'User research and prototyping',
+      'Visual design systems',
+      'Interaction and usability design',
     ],
   },
 };
@@ -81,4 +81,4 @@ serviceButtons.forEach((button) => {
   button.addEventListener('click', () => updateService(button.dataset.service));
 });
 
-updateService('asphalt');
+updateService('web');
